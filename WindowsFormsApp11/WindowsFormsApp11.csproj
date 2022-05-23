@@ -47,15 +47,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\Downloads\mark 2.cs">
+    <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="..\..\..\..\Downloads\mark 2.Designer.cs">
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mark 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mark 2.designer.cs">
       <DependentUpon>mark 2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="..\..\..\..\Downloads\mark 2.resx">
+    <EmbeddedResource Include="mark 2.resx">
       <DependentUpon>mark 2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
